@@ -1,0 +1,95 @@
+h1{
+    color: rgb(197, 93, 93);
+    align-self: center;
+}
+
+.flex-container1{
+  display: flex;
+  border: solid;
+  height:  90vh;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center !important;
+
+  
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px; 
+    flex-wrap:  wrap;
+    text-align: center !important;
+
+    
+
+}   
+.child1{
+    background-color: rgb(208, 235, 235);
+    order: 0;
+    text-align: center !important;
+
+     
+    
+
+}
+.child2{
+    
+    background-color: rgb(255, 255, 255);
+    order: 1;
+    height: 50vh;
+
+  
+
+
+    
+}
+.child3{
+    
+    background-color: rgb(238, 203, 214);
+    order: 2;
+    height: 25vh;
+    text-align: center !important;
+
+
+}
+.child4{
+    
+    background-color: rgb(205, 205, 240);
+    flex: 1 1 300px;
+   
+  
+
+
+    
+}
+.child5{
+    
+    background-color: rgb(204, 167, 175);
+    flex: 1 1 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+ 
+}
+.child6{
+    
+    background-color: rgb(241, 200, 210);
+    flex: 1 1 300px;
+    justify-content: center !important;
+    text-align: center !important;
+ 
+}
+@media screen and (min-width: 600px) {
+    .flex-container2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 10px; 
+        flex-wrap:  wrap;
+        text-align: center !important;
+    
+        
+    
+    }   
+  }
